@@ -10,9 +10,9 @@ export default function NaverButton(props: Props) {
     return (
         <>
             {label === 'login' ? (
-                <Image src="naver_login.svg" alt="naver login" />
+                <Image src="naver_login.svg" width={120} height={40} alt="naver login" />
             ) : (
-                <Image src="something" alt="naver logout" />
+                <Image src="something" width={120} height={40} alt="naver logout" />
             )}
         </>
     );
